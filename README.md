@@ -20,7 +20,7 @@ A comprehensive command-line tool for comparing different types of AI models acr
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/model-comparison-tool.git
+   git clone https://github.com/AravindYuvraj/q1_model_comparision_tool.git
    cd model-comparison-tool
    ```
 
