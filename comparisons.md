@@ -10,7 +10,7 @@ Through extensive testing with diverse prompts, we observed clear differences be
 - **Base Models**: Better for text completion and creative generation but require more careful prompting
 - **Fine-tuned Models**: Specialized for specific domains but may be less generalizable
 
-## 🧪 Test Results Summary
+## Test Results Summary
 
 ### Prompt 1: "Explain machine learning in one paragraph"
 
@@ -150,9 +150,7 @@ python main.py --query "How do I debug a Python TypeError?" --model-type "instru
 - May be less general-purpose
 - Require training data and expertise
 - Can be more cost-effective for specialized use cases
-
----
-ing
+g
 
 ---
 
@@ -172,10 +170,3 @@ The choice between Base, Instruct, and Fine-tuned models depends heavily on your
 - **For specialized domains**: Invest in Fine-tuned models
 - **For production systems**: Prioritize safety and reliability (Instruct)
 - **For research and experimentation**: Compare all types
-
-The model comparison tool demonstrates that understanding these differences is crucial for building effective AI applications. Each model type has its place in the AI development ecosystem, and the best choice depends on balancing performance, cost, safety, and user experience requirements.
-
----
-
-*Generated using the Model Comparison Tool - OpenAI GPT-3.5 Models*  
-*Last Updated: December 2024*
