@@ -112,7 +112,7 @@ model-comparison-tool/
 └── .gitignore          # Git ignore rules
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The tool uses three main configuration components:
 
@@ -120,7 +120,7 @@ The tool uses three main configuration components:
 2. **API Configuration**: Endpoint URLs and authentication
 3. **Default Settings**: Token limits, temperature, and other parameters
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
