@@ -2,7 +2,7 @@
 
 A comprehensive command-line tool for comparing different types of AI models across multiple providers (OpenAI, Anthropic, and Hugging Face). This tool demonstrates the differences between base models, instruction-tuned models, and fine-tuned models.
 
-## 🚀 Features
+## Features
 
 - **Multi-Provider Support**: OpenAI, Anthropic, and Hugging Face
 - **Model Type Comparison**: Base, Instruct, and Fine-tuned models
@@ -11,7 +11,7 @@ A comprehensive command-line tool for comparing different types of AI models acr
 - **Comprehensive Error Handling**: Graceful handling of API limitations
 - **Secure Configuration**: Environment-based API key management
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - API keys for desired providers (see setup instructions below)
@@ -41,7 +41,7 @@ A comprehensive command-line tool for comparing different types of AI models acr
    HUGGINGFACE_API_KEY=your_huggingface_api_key_here
    ```
 
-## 🔑 API Key Setup
+## API Key Setup
 
 ### OpenAI
 1. Visit https://platform.openai.com/api-keys
@@ -58,7 +58,7 @@ A comprehensive command-line tool for comparing different types of AI models acr
 2. Create a new token with "Read" permissions
 3. Add it to your `.env` file
 
-## 🎯 Usage
+## Usage
 
 ### Basic Usage
 
@@ -83,7 +83,7 @@ python main.py --query "Your question here" --model-type [base|instruct|fine_tun
    python main.py --query "Write a Python function to sort a list" --model-type "instruct" --provider "anthropic"
    ```
 
-## 📊 Output Features
+## Output Features
 
 The tool provides comprehensive analysis including:
 
@@ -98,7 +98,7 @@ The tool provides comprehensive analysis including:
   - Instruction following capability
   - Recommended use cases
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 model-comparison-tool/
@@ -120,40 +120,6 @@ The tool uses three main configuration components:
 2. **API Configuration**: Endpoint URLs and authentication
 3. **Default Settings**: Token limits, temperature, and other parameters
 
-## 🚨 Error Handling
-
-The tool includes robust error handling for:
-- Missing API keys
-- Rate limiting
-- Model availability
-- Network timeouts
-- Invalid configurations
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- OpenAI for GPT models and API
-- Anthropic for Claude models
-- Hugging Face for open-source model hosting
-- Contributors to the Python packages used in this project
-
-## 📚 Further Reading
-
-- [OpenAI API Documentation](https://platform.openai.com/docs)
-- [Anthropic API Documentation](https://docs.anthropic.com)
-- [Hugging Face Inference API](https://huggingface.co/docs/api-inference/index)
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -168,8 +134,3 @@ If you encounter issues, please:
 1. Check the error message for specific guidance
 2. Verify your API keys are valid
 3. Ensure all dependencies are installed
-4. Open an issue on GitHub with details
-
----
-
-Made with ❤️ for AI model comparison and research
